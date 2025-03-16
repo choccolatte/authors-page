@@ -22,8 +22,8 @@ const fetchMoreAuthors = () => {
   displayAuthors(authorDataArr.slice(startingIndex, endingIndex));
   if (authorDataArr.length <= endingIndex) {
     loadMoreBtn.disabled = true;
-	loadMoreBtn.style.cursor = 'not-allowed'
-	loadMoreBtn.textContent = 'No more data to load';
+loadMoreBtn.style.cursor="not-allowed"
+    loadMoreBtn.textContent = 'No more data to load';
   }
 };
 
